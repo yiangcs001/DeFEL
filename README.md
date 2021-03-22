@@ -1,11 +1,9 @@
 # DeFEL
-
 ---
 
 DeFEL is a tool to predict m6A-site containing sequences.
 
 ## Requirements
-
 ---
 
 1. python ≥ 3.6.11
