@@ -2,7 +2,7 @@ dataset: hf          # [hf, hm, mf, mm]
 deep_model: onehot   # [onehot, chemical]
 IR: 2                # Imbalanced Ratio(IR) = number of Neg. : number of Pos. Split negative samples into {10/IR} subsets.
 iterations: 20       # Train {iterations} models and choose the best one.
-epochs: 100          # Each model is trained for {epochs} epochs. 
+epochs: 100          # Each model is trained for {epochs} epochs.
 batch_size: 256
 dropout_rate: 0.25
 learning_rate: 0.001
