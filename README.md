@@ -19,7 +19,7 @@ Run the source code from python directly.
 ## Usage
 
 1. Run `python create_data_4_deep_model.py` to split data into several subsets, and each subset will be used to train a deep one-hot model and deep chemical model.
-2. Run `python train_deep_model.py` to train several deep one-hot models or deep chemical models. The trained deep models are stored in directory `models/DM`. If you want to use the trained deep models, you can skip this step.
+2. Run `python train_deep_model.py` to train several deep one-hot models or deep chemical models. The trained deep models are stored in directory `models/**/DM`. If you want to use the trained deep models, you can skip this step.
 3. Run `python train_DeFEL.py` to train several RF models and LR models.
 4. Run `python test_DeFEL.py` to predict m6A sites of test.xlsx. 
 
